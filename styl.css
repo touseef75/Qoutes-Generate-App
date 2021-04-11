@@ -68,7 +68,7 @@ button{
     padding: 4rem;
     color: aliceblue;
     font-size: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Caveat', cursive;
     font-size: 0.9rem;
     /* text-align: just]ify; */
     font-style: italic;}
@@ -80,7 +80,7 @@ button{
     border: none;
     outline: none;
     /* text-align: center; */
-    margin-left: 1.5rem;
+    margin-left: 0.2rem;
     color: aliceblue;
     background-color: blue;
 }
