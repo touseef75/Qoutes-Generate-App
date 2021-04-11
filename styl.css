@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./photo-1501630834273-4b5604d2ee31.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
+
+.container{
+    position: relative;
+    height: 60vh;
+    width: 40%;
+    padding: 0 4rem;
+    background-color: #5370f3;
+    border: blue solid 4px;
+    /* margin-top: 2rem; */
+    padding: 4rem;
+    color: aliceblue;
+    font-size: bold;
+    font-family: 'Caveat', cursive;
+    font-size: 0.9rem;
+    /* text-align: justify; */
+    font-style: italic;
+    
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+span{
+    text-align: center;
+}
+p{
+    margin-top: 5rem;
+    text-align: center;
+}
+h2{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+button{
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-left: 7.5rem;
+    color: aliceblue;
+    background-color: blue;
+}
+@media screen and (max-width:768px) {
+    .container{
+    position: relative;
+    height: 60vh;
+    width: 90%;
+    padding: 0 4rem;
+    background-color: #5370f3;
+    border: blue solid 4px;
+    /* margin-top: 2rem; */
+    padding: 4rem;
+    color: aliceblue;
+    font-size: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    /* text-align: just]ify; */
+    font-style: italic;}
+
+
+    button{
+        margin-bottom: 2rem;
+    padding: 0.4rem 2rem;
+    border: none;
+    outline: none;
+    /* text-align: center; */
+    margin-left: 1.5rem;
+    color: aliceblue;
+    background-color: blue;
+}
+}
