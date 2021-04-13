@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./photo-1501630834273-4b5604d2ee31.jpg);
+    background-image: url(./145-1452134_frame-design-png-transparent-png.png);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center
     
 }
 
@@ -17,15 +18,15 @@ body{
     height: 60vh;
     width: 40%;
     padding: 0 4rem;
-    background-color: #5370f3;
-    border: blue solid 4px;
-    /* margin-top: 2rem; */
+    border: black;
     padding: 4rem;
-    color: aliceblue;
+    color: black;
     font-size: bold;
+    background-image: url(./145-1452134_frame-design-png-transparent-png.png);
+    background-size: cover;
+    background-position: center;
     font-family: 'Caveat', cursive;
     font-size: 0.9rem;
-    /* text-align: justify; */
     font-style: italic;
     
 }
@@ -53,8 +54,10 @@ button{
     outline: none;
     text-align: center;
     margin-left: 7.5rem;
-    color: aliceblue;
-    background-color: blue;
+    color: black;
+    box-shadow: 4px 2px 4px grey;
+
+    background-color: transparent;
 }
 @media screen and (max-width:768px) {
     .container{
@@ -62,15 +65,16 @@ button{
     height: 60vh;
     width: 90%;
     padding: 0 4rem;
-    background-color: #5370f3;
-    border: blue solid 4px;
-    /* margin-top: 2rem; */
+    background-color: aliceblue;
+    font-weight: bolder;
     padding: 4rem;
-    color: aliceblue;
+    background-image: url(./145-1452134_frame-design-png-transparent-png.png);
+    background-size: cover;
+    background-position: center;
+    color: black;
     font-size: bold;
     font-family: 'Caveat', cursive;
-    font-size: 0.9rem;
-    /* text-align: just]ify; */
+    font-size: 14px;
     font-style: italic;}
 
 
@@ -79,9 +83,12 @@ button{
     padding: 0.4rem 2rem;
     border: none;
     outline: none;
-    /* text-align: center; */
     margin-left: 0.2rem;
-    color: aliceblue;
-    background-color: blue;
+    color: black;
+    box-shadow: 4px 2px 4px grey;
+    background-color: transparent;
+}
+body{
+    background-color: black;
 }
 }
